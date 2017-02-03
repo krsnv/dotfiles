@@ -1,0 +1,46 @@
+xterm*termName: xterm-256color
+
+XTerm*locale: true
+XTerm*selectToClipboard: true
+
+! Схема tangoesque 
+*background: #111111
+*foreground: #babdb6
+! Black (not tango) + DarkGrey (Чёрный (не танго)+ТёмноСерый)
+*color0:  #000000
+*color8:  #555753
+! DarkRed + Red (ТёмноКрасный+Красный)
+*color1:  #ff6565
+*color9:  #ff8d8d
+! DarkGreen + Green (ТёмноЗелёный+Зелёный)
+*color2:  #93d44f
+*color10: #c8e7a8
+! DarkYellow + Yellow (ТёмноЖёлтый+Жёлтый)
+*color3:  #eab93d
+*color11: #ffc123
+! DarkBlue + Blue (ТёмноСиний+Синий)
+*color4:  #204a87
+*color12: #3465a4
+! DarkMagenta + Magenta (ТёмноПурпурный+Пурпурный)
+*color5:  #ce5c00
+*color13: #f57900
+!DarkCyan + Cyan (both not tango) (ТёмноГолубой+Голубой (оба не танго))
+*color6:  #89b6e2
+*color14: #46a4ff
+! LightGrey + White (СветлоСерый+Белый)
+*color7:  #cccccc
+*color15: #ffffff
+
+
+xterm*faceName:           terminus:pixelsize=14
+xterm*dynamicColors:      true
+xterm*utf8:               1
+xterm*eightBitInput:      true
+xterm*saveLines:          4096
+xterm*scrollKey:          true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          false
+xterm*rightScrollBar:     false
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
