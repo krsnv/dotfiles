@@ -12,3 +12,6 @@ set tw=79
 set number
 set numberwidth=3
 set wrap
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
