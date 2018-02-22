@@ -3,3 +3,4 @@
 xrdb .Xresources
 xrandr --output HDMI2 --auto --right-of HDMI1
 
+# feh --bg-fill ~/pics/wallpapers/wall.png 
