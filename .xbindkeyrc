@@ -5,3 +5,18 @@
 "sleep 0.2; scrot --select --quality 90 '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/screenshots/'"
     m:0x10 + c:107
     Mod2 + Print
+
+# Functionals
+# Sequence: F1-F12
+
+"amixer set Master toggle"
+    m:0x50 + c:75
+    Mod2+Mod4 + F9
+
+"amixer set Master 1%-"
+    m:0x50 + c:76
+    Mod2+Mod4 + F10
+
+"amixer set Master 1%+"
+    m:0x50 + c:95
+    Mod2+Mod4 + F11
