@@ -1,3 +1,7 @@
-"import ~/Pictures/screenshots/screenshot_$(date +%Y-%m-%d_%H-%M-%S).png"
+# "import ~/Pictures/screenshots/screenshot_$(date +%Y-%m-%d_%H-%M-%S).png"
+#    m:0x10 + c:107
+#    Mod2 + Print
+
+"sleep 0.2; scrot --select --quality 90 '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/screenshots/'"
     m:0x10 + c:107
     Mod2 + Print
