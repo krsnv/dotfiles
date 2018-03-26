@@ -1,3 +1,9 @@
+# Lock session
+
+"i3lock -b -t -i /home/vova/.wallpaper_lock.png"
+    m:0x50 + c:96
+    Mod2+Mod4 + F12
+
 # "import ~/Pictures/screenshots/screenshot_$(date +%Y-%m-%d_%H-%M-%S).png"
 #    m:0x10 + c:107
 #    Mod2 + Print
