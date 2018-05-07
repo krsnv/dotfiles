@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+	"color_scheme": "Packages/1337 Color Scheme/1337.tmTheme",
 	"drag_text": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -37,7 +37,12 @@
 		"__pycache__"
 	],
 	"font_face": "Terminus (TTF)",
-	"font_size": 14,
+	"font_options":
+	[
+		"no_italic",
+		"no_bold"
+	],
+	"font_size": 12,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
