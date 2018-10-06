@@ -1,6 +1,15 @@
 #!/bin/bash
 
 xrdb .Xresources
-xrandr --output HDMI2 --auto --right-of HDMI1
 
-# feh --bg-fill ~/pics/wallpapers/wall.png 
+# xset -dpms
+# xset s off
+# xset -b
+# xset m 4/2 6
+# xrandr --output HDMI1 --primary
+
+shutter &
+
+xbindkeys
+
+feh --bg-fill ~/.wallpaper.jpg
